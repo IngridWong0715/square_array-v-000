@@ -6,3 +6,9 @@ def square_array(array)
   end
   squared
 end
+
+def square_array_collect(array)
+  array.collect do |number|
+    number*number
+  end
+end
